@@ -116,8 +116,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="negro 1" translatesAutoresizingMaskIntoConstraints="NO" id="Owf-jO-cp6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Owf-jO-cp6">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.21465280649999999" green="0.2281916142" blue="0.25069621209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b0A-Yn-N95">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
@@ -152,8 +153,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="3zT-OL-qbS"/>
                     <connections>
+                        <outlet property="dataServiceLbl" destination="5Ei-mb-7kX" id="uvk-1F-YL5"/>
                         <outlet property="imageView2" destination="b0A-Yn-N95" id="RYn-kI-IeL"/>
-                        <outlet property="label" destination="5Ei-mb-7kX" id="vTB-OC-2Ox"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfN-eI-njp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -181,7 +182,6 @@
     </scenes>
     <resources>
         <image name="CARPINTERIA" width="1024" height="1024"/>
-        <image name="negro 1" width="432" height="930"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

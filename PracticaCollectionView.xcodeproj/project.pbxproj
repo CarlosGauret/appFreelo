@@ -16,6 +16,7 @@
 		D89250222C2BB90400310CDB /* CategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89250212C2BB90400310CDB /* CategoryViewCell.swift */; };
 		FD9D4C102C2C9A0D00757932 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D4C0E2C2C9A0D00757932 /* ProfileTableViewCell.swift */; };
 		FD9D4C132C2CA63F00757932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9D4C122C2CA63F00757932 /* Main.storyboard */; };
+		FD9D4C152C2CAE8400757932 /* MainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D4C142C2CAE8400757932 /* MainData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D89250212C2BB90400310CDB /* CategoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewCell.swift; sourceTree = "<group>"; };
 		FD9D4C0E2C2C9A0D00757932 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		FD9D4C122C2CA63F00757932 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FD9D4C142C2CAE8400757932 /* MainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				D892500D2C2BA7D400310CDB /* AppDelegate.swift */,
 				D892500F2C2BA7D400310CDB /* SceneDelegate.swift */,
+				FD9D4C142C2CAE8400757932 /* MainData.swift */,
 				D89250212C2BB90400310CDB /* CategoryViewCell.swift */,
 				D86E01972C2BC811002A0E8E /* DetailViewController.swift */,
 				D89250112C2BA7D400310CDB /* HomeViewController.swift */,
@@ -151,6 +154,7 @@
 				D89250122C2BA7D400310CDB /* HomeViewController.swift in Sources */,
 				D892500E2C2BA7D400310CDB /* AppDelegate.swift in Sources */,
 				FD9D4C102C2C9A0D00757932 /* ProfileTableViewCell.swift in Sources */,
+				FD9D4C152C2CAE8400757932 /* MainData.swift in Sources */,
 				D89250222C2BB90400310CDB /* CategoryViewCell.swift in Sources */,
 				D89250102C2BA7D400310CDB /* SceneDelegate.swift in Sources */,
 			);

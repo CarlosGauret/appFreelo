@@ -32,7 +32,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CategoryViewCell
         cell.layer.borderWidth = 1
         cell.layer.cornerRadius = 20
-        cell.titleLabel.text = services[indexPath.row].dataServices
+        cell.titleLabel.text = services[indexPath.row].nameService
         cell.imageView.image = UIImage(named: services[indexPath.row].images)
         return cell
     }

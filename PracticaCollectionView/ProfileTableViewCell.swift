@@ -11,7 +11,6 @@ class ProfileTableViewCell: UITableViewCell {
     @IBOutlet weak var nameView: UILabel!
     
     @IBOutlet weak var faceView: UIImageView!
-  
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,8 +21,7 @@ class ProfileTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        
+   
     }
     
     func commonInit( _ name: String, _ image:String ) {
